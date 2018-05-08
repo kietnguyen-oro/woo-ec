@@ -1,0 +1,21 @@
+---
+- name: Upgrade all packages
+  yum: name=* state=latest
+
+- name: Install essential packages
+  yum: name={{ item }} state=latest
+  with_items:
+    - bzip2-devel
+    - curl-devel
+    - gcc
+    - gcc-c++
+    - git
+    - ImageMagick-devel
+    - make
+    - nodejs
+    - openssl-devel
+    - patch
+    - sudo
+    - tar
+    - v8-devel
+    - zlib-devel

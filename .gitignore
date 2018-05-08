@@ -27,7 +27,9 @@ wp-config.php
 
 # Misc #
 ###################
-
 _assets
 node_modules
 ai-cache/*
+.idea
+.vagrant
+ansible/vault-password.txt

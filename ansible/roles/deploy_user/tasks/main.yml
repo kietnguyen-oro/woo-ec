@@ -1,0 +1,17 @@
+---
+- name: add deploy user
+  user:
+    name: "{{ deploy_user_name }}"
+    password: "{{ deploy_user_pass |  password_hash('sha512') }}"
+    shell: /bin/bash
+
+- name: ensure libselinux-python installed
+  yum: name=libselinux-python state=latest
+
+- name: set up authorized keys for remote user
+  authorized_key:
+    user: "{{ deploy_user_name }}"
+    key: "{{ lookup('file', item) }}"
+    state: present
+  with_fileglob:
+    - public_keys/*.pub

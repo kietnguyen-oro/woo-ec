@@ -1,0 +1,20 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - geerlingguy.repo-epel
+    - geerlingguy.repo-remi
+    - common
+    - deploy_user
+#    - dev-sec.ssh-hardening
+    - geerlingguy.ntp
+    - geerlingguy.postfix
+    - logrotate
+    - jdauphant.ssl-certs
+    - geerlingguy.apache
+    - geerlingguy.mysql
+    - geerlingguy.php
+    - geerlingguy.php-mysql
+    - geerlingguy.php-xdebug
+    - geerlingguy.composer
+    - geerlingguy.ruby

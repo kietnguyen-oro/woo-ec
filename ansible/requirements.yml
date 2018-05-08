@@ -1,0 +1,17 @@
+---
+- src: geerlingguy.repo-epel
+- src: geerlingguy.repo-remi
+- src: dev-sec.ssh-hardening
+- src: geerlingguy.ntp
+- src: geerlingguy.postfix
+- name: logrotate
+  src: https://github.com/kietnguyen-oro/ansible-role-logrotate
+  version: develop
+- src: geerlingguy.apache
+- src: jdauphant.ssl-certs
+- src: geerlingguy.mysql
+- src: geerlingguy.php
+- src: geerlingguy.php-mysql
+- src: geerlingguy.php-xdebug
+- src: geerlingguy.composer
+- src: geerlingguy.ruby
