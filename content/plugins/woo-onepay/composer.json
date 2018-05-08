@@ -1,0 +1,10 @@
+{
+	"autoload": {
+		"psr-4": {
+			"WooOnePay\\": "src",
+			"WooOnePay\\Gateways\\": "src/gateways",
+			"WooOnePay\\Shortcodes\\": "src/shortcodes",
+			"WooOnePay\\Traits\\": "src/traits"
+		}
+	}
+}
