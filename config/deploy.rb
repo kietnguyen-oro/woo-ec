@@ -6,20 +6,20 @@
 lock '3.8.1'
 
 # The WordPress admin user
-set :wp_user, 'yourname'
+set :wp_user, 'admin'
 
 # The WordPress admin email address
-set :wp_email, 'yourname@example.com'
+set :wp_email, 'nguyen.hong.kiet@vn.oro.com'
 
 # The WordPress 'Site Title' for the website
-set :wp_sitename, 'WP Deploy'
+set :wp_sitename, 'Basic WooCommerce EC site'
 
 # The local environment URL.
-set :wp_localurl, 'http://wpdeploy.dev'
+set :wp_localurl, 'https://basic.ec.local'
 
 # An identifying name for the application to be used by Capistrano
-set :application, 'wp-deploy'
-set :repo_url, 'git@github.com:Mixd/wp-deploy.git'
+set :application, 'basic-ec'
+set :repo_url, 'git@github.com:kietnguyen-oro/wp-deploy.git'
 
 
 ################################################################################
@@ -27,7 +27,7 @@ set :repo_url, 'git@github.com:Mixd/wp-deploy.git'
 ################################################################################
 
 set :log_level, :debug
-set :keep_releases, 2
+set :keep_releases, 5
 set :use_sudo, false
 set :ssh_options, forward_agent: true
 
