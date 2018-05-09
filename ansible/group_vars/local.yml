@@ -29,9 +29,13 @@ apache_vhosts_ssl:
       ErrorLog '|/usr/sbin/rotatelogs /var/log/httpd/ssl_{{ base_url }}_%Y%m%d-error_log 86400 540'
 
 # ssl-certs
-ssl_certs_common_name: "{{ base_url }}"
 ssl_certs_path_owner: "root"
 ssl_certs_path_group: "root"
+ssl_certs_country: "VN"
+ssl_certs_locality: "Ho Chi Minh"
+ssl_certs_organization: "ORO Vietnam"
+ssl_certs_state: "Ho Chi Minh"
+ssl_certs_common_name: "{{ base_url }}"
 
 # mysql
 mysql_enablerepo: remi
