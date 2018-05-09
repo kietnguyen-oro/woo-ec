@@ -19,3 +19,15 @@
     - tar
     - v8-devel
     - zlib-devel
+
+- name: Ensure app folder exists
+  file:
+    path: "{{ app_placeholder_directory }}"
+    state: directory
+
+- name: Symlink app folder to shared folder
+  file:
+    src: /vagrant
+    dest: "{{ apache_document_root }}"
+    state: link
+  when: is_dev is defined and is_dev

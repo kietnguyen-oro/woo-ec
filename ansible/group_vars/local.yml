@@ -1,25 +1,32 @@
 ---
-base_url: basic.ec.local
+# common
+base_url: woo.ec.local
+app_name: woo
+app_placeholder_directory: /home/test/ec
+apache_document_root: "{{ app_placeholder_directory }}/{{ app_name}}"
+is_dev: True
 
 # deploy_user
 deploy_user_name: vagrant
 
 # apache
+apache_enablerepo: remi
+apache_remove_default_vhost: True
 apache_vhosts_filename: "{{ base_url }}.conf"
 apache_vhosts:
   - servername: "{{ base_url }}"
-    documentroot: /home/test/ec/basic
+    documentroot: "{{ apache_document_root }}"
     extra_parameters: |
       Redirect permanent / https://{{ base_url }}/
 apache_vhosts_ssl:
   - servername: "{{ base_url }}"
-    documentroot: /home/test/ec/basic
+    documentroot: "{{ apache_document_root }}"
     certificate_file: "/etc/ssl/{{ base_url }}/{{ base_url }}.pem"
     certificate_key_file: "/etc/ssl/{{ base_url }}/{{ base_url }}.key"
     certificate_chain_file: "/etc/ssl/{{ base_url }}/{{ base_url }}.combined.pem"
     extra_parameters: |
-      CustomLog '|rotatelogs /var/log/httpd/ssl_{{ base_url }}_%Y%m%d-access_log 86400 540' combined
-      ErrorLog '|rotatelogs /var/log/httpd/ssl_{{ base_url }}_%Y%m%d-error_log 86400 540'
+      CustomLog '|/usr/sbin/rotatelogs /var/log/httpd/ssl_{{ base_url }}_%Y%m%d-access_log 86400 540' combined
+      ErrorLog '|/usr/sbin/rotatelogs /var/log/httpd/ssl_{{ base_url }}_%Y%m%d-error_log 86400 540'
 
 # ssl-certs
 ssl_certs_common_name: "{{ base_url }}"
@@ -27,25 +34,26 @@ ssl_certs_path_owner: "root"
 ssl_certs_path_group: "root"
 
 # mysql
+mysql_enablerepo: remi
 mysql_databases:
-  - name: ec_basic_prod
+  - name: ec_woo_prod
     collation: utf8_general_ci
     encoding: utf8
 mysql_users:
   - name: "ec"
     host: "%"
     password: "root"
-    priv: "ec_basic_prod.*:ALL"
+    priv: "ec_woo_prod.*:ALL"
 
 # php-versions
 php_version: '7.2'
 
 # php-xdebug
-php_xdebug_version: 2.5.5
+php_xdebug_version: 2.6.0
 php_xdebug_idekey: OROVietnam
 php_xdebug_remote_enable: "true"
 php_xdebug_remote_connect_back: "true"
-php_xdebug_remote_host: basic.ec.local
+php_xdebug_remote_host: woo.ec.local
 
 # composer
 composer_home_owner: "{{ deploy_user_name }}"

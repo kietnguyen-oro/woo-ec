@@ -18,20 +18,20 @@ Vagrant.configure(2) do |config|
     config.vbguest.no_remote = true
   end
 
-  config.vm.box = "bento/centos-6.9"
+  config.vm.box = "bento/centos-7.4"
   config.ssh.insert_key = false
 
-  config.vm.define :ec_basic do |ec_basic|
-    ec_basic.vm.network "private_network", ip: "192.168.33.40"
-    ec_basic.vm.synced_folder ".", "/vagrant", type: "nfs",
+  config.vm.define :woo_ec do |woo_ec|
+    woo_ec.vm.network "private_network", ip: "192.168.33.40"
+    woo_ec.vm.synced_folder ".", "/vagrant", type: "nfs",
         mount_options: ['rw', 'vers=3', 'tcp'], linux__nfs_options: ['rw', 'no_subtree_check', 'all_squash', 'async']
 
-    ec_basic.vm.provider "virtualbox" do |vb|
+    woo_ec.vm.provider "virtualbox" do |vb|
       vb.memory = 4096
       vb.cpus = 4
     end
 
-    ec_basic.vm.provision "ansible_local" do |ansible|
+    woo_ec.vm.provision "ansible_local" do |ansible|
       ansible.playbook = "ansible/production.yml"
       ansible.raw_arguments = "-e @ansible/group_vars/local.yml -e @ansible/group_vars/secret.yml"
       ansible.verbose = "vvv"
