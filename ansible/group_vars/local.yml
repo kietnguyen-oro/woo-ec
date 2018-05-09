@@ -37,6 +37,9 @@ mysql_users:
     password: "root"
     priv: "ec_basic_prod.*:ALL"
 
+# php-versions
+php_version: '7.2'
+
 # php-xdebug
 php_xdebug_version: 2.5.5
 php_xdebug_idekey: OROVietnam

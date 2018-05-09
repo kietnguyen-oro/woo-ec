@@ -13,6 +13,7 @@
     - jdauphant.ssl-certs
     - geerlingguy.apache
     - geerlingguy.mysql
+    - geerlingguy.php-versions
     - geerlingguy.php
     - geerlingguy.php-mysql
     - geerlingguy.php-xdebug
