@@ -30,6 +30,20 @@ wp-config.php
 _assets
 node_modules
 ai-cache/*
+
+# IDEs
+nbproject
 .idea
+
+# Vagrant
 .vagrant
+
+# Ansible
+*.retry
 ansible/vault-password.txt
+.galaxy_install_info
+
+# python byte-compiled / optimized / dll files
+__pycache__/
+*.py[cod]
+*$py.class
