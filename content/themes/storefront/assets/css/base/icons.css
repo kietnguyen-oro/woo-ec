@@ -4,84 +4,6 @@
  */
 .fa,
 .fas,
-#comments .commentlist .bypostauthor > .comment-body cite::after,
-#comments .commentlist .reply a::after,
-#comments .commentlist .reply a.comment-edit-link::after,
-#respond #cancel-comment-reply-link::before,
-.sticky .entry-title::before,
-button.loading::after,
-input[type='button'].loading::after,
-input[type='reset'].loading::after,
-input[type='submit'].loading::after,
-.button.loading::after,
-.added_to_cart.loading::after,
-.main-navigtion ul li a::before,
-.handheld-navigation ul.menu li button::after,
-.site-main nav.navigation .nav-previous a::before,
-.site-main nav.navigation .nav-next a::after,
-.widget_search form::before,
-.widget_product_search form::before,
-.storefront-handheld-footer-bar ul li > a::before,
-.storefront-product-pagination a[rel='prev']::after,
-.storefront-product-pagination a[rel='next']::after,
-.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before,
-.stock::before,
-a.reset_variations::before,
-.woocommerce-breadcrumb a:first-of-type::before,
-.widget_recent_entries ul li::before,
-.widget_pages ul li::before,
-.widget_categories ul li::before,
-.widget_archive ul li::before,
-.widget_recent_comments ul li::before,
-.widget_nav_menu ul li::before,
-.widget_links ul li::before,
-.widget_product_categories ul li::before,
-.widget_layered_nav ul li::before,
-.widget_layered_nav_filters ul li::before,
-a.remove::before,
-.woocommerce-shipping-calculator > p:first-child a::before,
-.blockUI::before,
-.woocommerce-pagination .next::after,
-.woocommerce-pagination .prev::after,
-.woocommerce-breadcrumb .breadcrumb-separator::after,
-#payment .payment_methods > .woocommerce-PaymentMethod > label::before,
-#payment .payment_methods > .wc_payment_method > label::before,
-.woocommerce-password-strength::after,
-.woocommerce-MyAccount-navigation ul li a::before,
-.my_account_orders .button.view::after,
-p.order-again .button::after,
-.woocommerce-MyAccount-downloads .button::after,
-.demo_store::before,
-.woocommerce-tabs ul.tabs li::after,
-.wc-forward::after,
-.woocommerce-Button--next::after,
-.woocommerce-Button--previous::before,
-#reviews .commentlist li p.meta .verified::before,
-.single-product div.product .component_selections .clear_component_options::before,
-.cart .mnm_table_item .mnm_table_item_indent::before,
-.shop_table .mnm_table_item .mnm_table_item_indent::before,
-.quick-view-button::before,
-.woocommerce-page .ship_address .gift-form label::after,
-.woocommerce-page .no_shipping_address .gift-form label::after,
-.woocommerce-page .ship_address .modify-address-button::before,
-.woocommerce-page .no_shipping_address .modify-address-button::before,
-.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
-.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
-a#variations_clear::before,
-.wl-add-link::before,
-.button.wl-create-new::before,
-.main-navigation ul.menu > li.menu-item-has-children > a::after,
-.main-navigation ul.menu > li.page_item_has_children > a::after,
-.main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
-.main-navigation ul.nav-menu > li.page_item_has_children > a::after,
-.main-navigation ul.menu ul li.menu-item-has-children > a::after,
-.main-navigation ul.menu ul li.page_item_has_children > a::after,
-.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
-.main-navigation ul.nav-menu ul li.page_item_has_children > a::after,
-.demo_store a.woocommerce-store-notice__dismiss-link::before,
-.site-header-cart .cart-contents::after,
-.addresses header.title a::before,
-#wl-wrapper .wl-tabs > li.active::after,
 .far,
 .fal,
 .fab {
@@ -165,83 +87,6 @@ a#variations_clear::before,
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
-#comments .commentlist .bypostauthor > .comment-body cite.fa-pull-left::after,
-#comments .commentlist .reply a.fa-pull-left::after,
-#respond .fa-pull-left#cancel-comment-reply-link::before,
-.sticky .fa-pull-left.entry-title::before,
-button.fa-pull-left.loading::after,
-input.fa-pull-left[type='button'].loading::after,
-input.fa-pull-left[type='reset'].loading::after,
-input.fa-pull-left[type='submit'].loading::after,
-.fa-pull-left.button.loading::after,
-.fa-pull-left.added_to_cart.loading::after,
-.main-navigtion ul li a.fa-pull-left::before,
-.handheld-navigation ul.menu li button.fa-pull-left::after,
-.site-main nav.navigation .nav-previous a.fa-pull-left::before,
-.site-main nav.navigation .nav-next a.fa-pull-left::after,
-.widget_search form.fa-pull-left::before,
-.widget_product_search form.fa-pull-left::before,
-.storefront-handheld-footer-bar ul li > a.fa-pull-left::before,
-.storefront-product-pagination a.fa-pull-left[rel='prev']::after,
-.storefront-product-pagination a.fa-pull-left[rel='next']::after,
-.single-product div.product .woocommerce-product-gallery .fa-pull-left.woocommerce-product-gallery__trigger::before,
-.fa-pull-left.stock::before,
-a.fa-pull-left.reset_variations::before,
-.woocommerce-breadcrumb a.fa-pull-left:first-of-type::before,
-.widget_recent_entries ul li.fa-pull-left::before,
-.widget_pages ul li.fa-pull-left::before,
-.widget_categories ul li.fa-pull-left::before,
-.widget_archive ul li.fa-pull-left::before,
-.widget_recent_comments ul li.fa-pull-left::before,
-.widget_nav_menu ul li.fa-pull-left::before,
-.widget_links ul li.fa-pull-left::before,
-.widget_product_categories ul li.fa-pull-left::before,
-.widget_layered_nav ul li.fa-pull-left::before,
-.widget_layered_nav_filters ul li.fa-pull-left::before,
-a.fa-pull-left.remove::before,
-.woocommerce-shipping-calculator > p:first-child a.fa-pull-left::before,
-.fa-pull-left.blockUI::before,
-.woocommerce-pagination .fa-pull-left.next::after,
-.woocommerce-pagination .fa-pull-left.prev::after,
-.woocommerce-breadcrumb .fa-pull-left.breadcrumb-separator::after,
-#payment .payment_methods > .woocommerce-PaymentMethod > label.fa-pull-left::before,
-#payment .payment_methods > .wc_payment_method > label.fa-pull-left::before,
-.fa-pull-left.woocommerce-password-strength::after,
-.woocommerce-MyAccount-navigation ul li a.fa-pull-left::before,
-.my_account_orders .fa-pull-left.button.view::after,
-p.order-again .fa-pull-left.button::after,
-.woocommerce-MyAccount-downloads .fa-pull-left.button::after,
-.fa-pull-left.demo_store::before,
-.woocommerce-tabs ul.tabs li.fa-pull-left::after,
-.fa-pull-left.wc-forward::after,
-.fa-pull-left.woocommerce-Button--next::after,
-.fa-pull-left.woocommerce-Button--previous::before,
-#reviews .commentlist li p.meta .fa-pull-left.verified::before,
-.single-product div.product .component_selections .fa-pull-left.clear_component_options::before,
-.cart .mnm_table_item .fa-pull-left.mnm_table_item_indent::before,
-.shop_table .mnm_table_item .fa-pull-left.mnm_table_item_indent::before,
-.fa-pull-left.quick-view-button::before,
-.woocommerce-page .ship_address .gift-form label.fa-pull-left::after,
-.woocommerce-page .no_shipping_address .gift-form label.fa-pull-left::after,
-.woocommerce-page .ship_address .fa-pull-left.modify-address-button::before,
-.woocommerce-page .no_shipping_address .fa-pull-left.modify-address-button::before,
-.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a.fa-pull-left::before,
-.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a.fa-pull-left::before,
-a.fa-pull-left#variations_clear::before,
-.fa-pull-left.wl-add-link::before,
-.fa-pull-left.button.wl-create-new::before,
-.main-navigation ul.menu > li.menu-item-has-children > a.fa-pull-left::after,
-.main-navigation ul.menu > li.page_item_has_children > a.fa-pull-left::after,
-.main-navigation ul.nav-menu > li.menu-item-has-children > a.fa-pull-left::after,
-.main-navigation ul.nav-menu > li.page_item_has_children > a.fa-pull-left::after,
-.main-navigation ul.menu ul li.menu-item-has-children > a.fa-pull-left::after,
-.main-navigation ul.menu ul li.page_item_has_children > a.fa-pull-left::after,
-.main-navigation ul.nav-menu ul li.menu-item-has-children > a.fa-pull-left::after,
-.main-navigation ul.nav-menu ul li.page_item_has_children > a.fa-pull-left::after,
-.demo_store a.fa-pull-left.woocommerce-store-notice__dismiss-link::before,
-.site-header-cart .fa-pull-left.cart-contents::after,
-.addresses header.title a.fa-pull-left::before,
-#wl-wrapper .wl-tabs > li.fa-pull-left.active::after,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
@@ -249,83 +94,6 @@ a.fa-pull-left#variations_clear::before,
 
 .fa.fa-pull-right,
 .fas.fa-pull-right,
-#comments .commentlist .bypostauthor > .comment-body cite.fa-pull-right::after,
-#comments .commentlist .reply a.fa-pull-right::after,
-#respond .fa-pull-right#cancel-comment-reply-link::before,
-.sticky .fa-pull-right.entry-title::before,
-button.fa-pull-right.loading::after,
-input.fa-pull-right[type='button'].loading::after,
-input.fa-pull-right[type='reset'].loading::after,
-input.fa-pull-right[type='submit'].loading::after,
-.fa-pull-right.button.loading::after,
-.fa-pull-right.added_to_cart.loading::after,
-.main-navigtion ul li a.fa-pull-right::before,
-.handheld-navigation ul.menu li button.fa-pull-right::after,
-.site-main nav.navigation .nav-previous a.fa-pull-right::before,
-.site-main nav.navigation .nav-next a.fa-pull-right::after,
-.widget_search form.fa-pull-right::before,
-.widget_product_search form.fa-pull-right::before,
-.storefront-handheld-footer-bar ul li > a.fa-pull-right::before,
-.storefront-product-pagination a.fa-pull-right[rel='prev']::after,
-.storefront-product-pagination a.fa-pull-right[rel='next']::after,
-.single-product div.product .woocommerce-product-gallery .fa-pull-right.woocommerce-product-gallery__trigger::before,
-.fa-pull-right.stock::before,
-a.fa-pull-right.reset_variations::before,
-.woocommerce-breadcrumb a.fa-pull-right:first-of-type::before,
-.widget_recent_entries ul li.fa-pull-right::before,
-.widget_pages ul li.fa-pull-right::before,
-.widget_categories ul li.fa-pull-right::before,
-.widget_archive ul li.fa-pull-right::before,
-.widget_recent_comments ul li.fa-pull-right::before,
-.widget_nav_menu ul li.fa-pull-right::before,
-.widget_links ul li.fa-pull-right::before,
-.widget_product_categories ul li.fa-pull-right::before,
-.widget_layered_nav ul li.fa-pull-right::before,
-.widget_layered_nav_filters ul li.fa-pull-right::before,
-a.fa-pull-right.remove::before,
-.woocommerce-shipping-calculator > p:first-child a.fa-pull-right::before,
-.fa-pull-right.blockUI::before,
-.woocommerce-pagination .fa-pull-right.next::after,
-.woocommerce-pagination .fa-pull-right.prev::after,
-.woocommerce-breadcrumb .fa-pull-right.breadcrumb-separator::after,
-#payment .payment_methods > .woocommerce-PaymentMethod > label.fa-pull-right::before,
-#payment .payment_methods > .wc_payment_method > label.fa-pull-right::before,
-.fa-pull-right.woocommerce-password-strength::after,
-.woocommerce-MyAccount-navigation ul li a.fa-pull-right::before,
-.my_account_orders .fa-pull-right.button.view::after,
-p.order-again .fa-pull-right.button::after,
-.woocommerce-MyAccount-downloads .fa-pull-right.button::after,
-.fa-pull-right.demo_store::before,
-.woocommerce-tabs ul.tabs li.fa-pull-right::after,
-.fa-pull-right.wc-forward::after,
-.fa-pull-right.woocommerce-Button--next::after,
-.fa-pull-right.woocommerce-Button--previous::before,
-#reviews .commentlist li p.meta .fa-pull-right.verified::before,
-.single-product div.product .component_selections .fa-pull-right.clear_component_options::before,
-.cart .mnm_table_item .fa-pull-right.mnm_table_item_indent::before,
-.shop_table .mnm_table_item .fa-pull-right.mnm_table_item_indent::before,
-.fa-pull-right.quick-view-button::before,
-.woocommerce-page .ship_address .gift-form label.fa-pull-right::after,
-.woocommerce-page .no_shipping_address .gift-form label.fa-pull-right::after,
-.woocommerce-page .ship_address .fa-pull-right.modify-address-button::before,
-.woocommerce-page .no_shipping_address .fa-pull-right.modify-address-button::before,
-.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a.fa-pull-right::before,
-.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a.fa-pull-right::before,
-a.fa-pull-right#variations_clear::before,
-.fa-pull-right.wl-add-link::before,
-.fa-pull-right.button.wl-create-new::before,
-.main-navigation ul.menu > li.menu-item-has-children > a.fa-pull-right::after,
-.main-navigation ul.menu > li.page_item_has_children > a.fa-pull-right::after,
-.main-navigation ul.nav-menu > li.menu-item-has-children > a.fa-pull-right::after,
-.main-navigation ul.nav-menu > li.page_item_has_children > a.fa-pull-right::after,
-.main-navigation ul.menu ul li.menu-item-has-children > a.fa-pull-right::after,
-.main-navigation ul.menu ul li.page_item_has_children > a.fa-pull-right::after,
-.main-navigation ul.nav-menu ul li.menu-item-has-children > a.fa-pull-right::after,
-.main-navigation ul.nav-menu ul li.page_item_has_children > a.fa-pull-right::after,
-.demo_store a.fa-pull-right.woocommerce-store-notice__dismiss-link::before,
-.site-header-cart .fa-pull-right.cart-contents::after,
-.addresses header.title a.fa-pull-right::before,
-#wl-wrapper .wl-tabs > li.fa-pull-right.active::after,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
@@ -3074,85 +2842,7 @@ readers do not read off random characters that represent icons */
   src: url("../../../assets/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../../assets/fonts/fa-solid-900.woff2") format("woff2"), url("../../../assets/fonts/fa-solid-900.woff") format("woff"), url("../../../assets/fonts/fa-solid-900.ttf") format("truetype"), url("../../../assets/fonts/fa-solid-900.svg#fontawesome") format("svg"); }
 
 .fa,
-.fas,
-#comments .commentlist .bypostauthor > .comment-body cite::after,
-#comments .commentlist .reply a::after,
-#comments .commentlist .reply a.comment-edit-link::after,
-#respond #cancel-comment-reply-link::before,
-.sticky .entry-title::before,
-button.loading::after,
-input[type='button'].loading::after,
-input[type='reset'].loading::after,
-input[type='submit'].loading::after,
-.button.loading::after,
-.added_to_cart.loading::after,
-.main-navigtion ul li a::before,
-.handheld-navigation ul.menu li button::after,
-.site-main nav.navigation .nav-previous a::before,
-.site-main nav.navigation .nav-next a::after,
-.widget_search form::before,
-.widget_product_search form::before,
-.storefront-handheld-footer-bar ul li > a::before,
-.storefront-product-pagination a[rel='prev']::after,
-.storefront-product-pagination a[rel='next']::after,
-.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before,
-.stock::before,
-a.reset_variations::before,
-.woocommerce-breadcrumb a:first-of-type::before,
-.widget_recent_entries ul li::before,
-.widget_pages ul li::before,
-.widget_categories ul li::before,
-.widget_archive ul li::before,
-.widget_recent_comments ul li::before,
-.widget_nav_menu ul li::before,
-.widget_links ul li::before,
-.widget_product_categories ul li::before,
-.widget_layered_nav ul li::before,
-.widget_layered_nav_filters ul li::before,
-a.remove::before,
-.woocommerce-shipping-calculator > p:first-child a::before,
-.blockUI::before,
-.woocommerce-pagination .next::after,
-.woocommerce-pagination .prev::after,
-.woocommerce-breadcrumb .breadcrumb-separator::after,
-#payment .payment_methods > .woocommerce-PaymentMethod > label::before,
-#payment .payment_methods > .wc_payment_method > label::before,
-.woocommerce-password-strength::after,
-.woocommerce-MyAccount-navigation ul li a::before,
-.my_account_orders .button.view::after,
-p.order-again .button::after,
-.woocommerce-MyAccount-downloads .button::after,
-.demo_store::before,
-.woocommerce-tabs ul.tabs li::after,
-.wc-forward::after,
-.woocommerce-Button--next::after,
-.woocommerce-Button--previous::before,
-#reviews .commentlist li p.meta .verified::before,
-.single-product div.product .component_selections .clear_component_options::before,
-.cart .mnm_table_item .mnm_table_item_indent::before,
-.shop_table .mnm_table_item .mnm_table_item_indent::before,
-.quick-view-button::before,
-.woocommerce-page .ship_address .gift-form label::after,
-.woocommerce-page .no_shipping_address .gift-form label::after,
-.woocommerce-page .ship_address .modify-address-button::before,
-.woocommerce-page .no_shipping_address .modify-address-button::before,
-.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
-.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
-a#variations_clear::before,
-.wl-add-link::before,
-.button.wl-create-new::before,
-.main-navigation ul.menu > li.menu-item-has-children > a::after,
-.main-navigation ul.menu > li.page_item_has_children > a::after,
-.main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
-.main-navigation ul.nav-menu > li.page_item_has_children > a::after,
-.main-navigation ul.menu ul li.menu-item-has-children > a::after,
-.main-navigation ul.menu ul li.page_item_has_children > a::after,
-.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
-.main-navigation ul.nav-menu ul li.page_item_has_children > a::after,
-.demo_store a.woocommerce-store-notice__dismiss-link::before,
-.site-header-cart .cart-contents::after,
-.addresses header.title a::before,
-#wl-wrapper .wl-tabs > li.active::after {
+.fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
@@ -3169,6 +2859,8 @@ a#variations_clear::before,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f15c";
@@ -3183,6 +2875,8 @@ a#variations_clear::before,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f3e5";
@@ -3197,6 +2891,8 @@ a#variations_clear::before,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f303"; }
@@ -3210,6 +2906,8 @@ a#variations_clear::before,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f057";
@@ -3224,6 +2922,8 @@ a#variations_clear::before,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f08d";
@@ -3250,6 +2950,8 @@ input[type='submit'].loading,
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f110";
@@ -3274,6 +2976,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f15c";
@@ -3288,6 +2992,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f107"; }
@@ -3301,6 +3007,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f30a";
@@ -3315,6 +3023,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f30b";
@@ -3330,6 +3040,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f002";
@@ -3353,6 +3065,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   position: absolute;
@@ -3386,6 +3100,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline; }
 
@@ -3412,6 +3128,8 @@ input[type='submit'].loading,
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f00e";
@@ -3430,6 +3148,8 @@ input[type='submit'].loading,
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   margin-right: 0.5407911001em; }
@@ -3449,6 +3169,8 @@ a.reset_variations::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f021";
@@ -3463,6 +3185,8 @@ a.reset_variations::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f015";
@@ -3508,6 +3232,8 @@ a.reset_variations::before {
       font-weight: normal;
       line-height: 1;
       vertical-align: -.125em;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
       line-height: inherit;
       vertical-align: baseline;
       margin-right: 0.5407911001em;
@@ -3526,6 +3252,8 @@ a.reset_variations::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f07b"; }
@@ -3557,6 +3285,8 @@ a.reset_variations::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f07b"; }
@@ -3593,6 +3323,8 @@ a.remove {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f057";
@@ -3615,6 +3347,8 @@ a.remove {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f0d1";
@@ -3629,6 +3363,8 @@ a.remove {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f110";
@@ -3659,6 +3395,8 @@ a.remove {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f0d9";
@@ -3690,6 +3428,8 @@ a.remove {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f105";
@@ -3718,6 +3458,8 @@ a.remove {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f111";
@@ -3749,6 +3491,8 @@ a.remove {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f119";
@@ -3772,6 +3516,8 @@ a.remove {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f15c";
@@ -3818,6 +3564,8 @@ a.remove {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f06e";
@@ -3832,6 +3580,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f021";
@@ -3846,6 +3596,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f381";
@@ -3860,6 +3612,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f05a";
@@ -3874,6 +3628,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f107";
@@ -3902,6 +3658,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f30b";
@@ -3916,6 +3674,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f30a";
@@ -3936,6 +3696,8 @@ p.order-again .button::after {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f058";
@@ -3961,6 +3723,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f021";
@@ -3979,6 +3743,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f3bf";
@@ -4001,6 +3767,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f06e";
@@ -4019,6 +3787,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f06b";
@@ -4034,6 +3804,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f044";
@@ -4055,6 +3827,8 @@ p.order-again .button::after {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f005"; }
@@ -4071,6 +3845,8 @@ a#variations_clear::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f021";
@@ -4088,6 +3864,8 @@ a#variations_clear::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f004";
@@ -4102,6 +3880,8 @@ a#variations_clear::before {
   font-weight: normal;
   line-height: 1;
   vertical-align: -.125em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   line-height: inherit;
   vertical-align: baseline;
   content: "\f067";
@@ -4119,6 +3899,8 @@ a#variations_clear::before {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f107";
@@ -4134,6 +3916,8 @@ a#variations_clear::before {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f105";
@@ -4148,6 +3932,8 @@ a#variations_clear::before {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f057";
@@ -4161,6 +3947,8 @@ a#variations_clear::before {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f291";
@@ -4184,6 +3972,8 @@ a#variations_clear::before {
       font-weight: normal;
       line-height: 1;
       vertical-align: -.125em;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
       line-height: inherit;
       vertical-align: baseline;
       content: "\f044";
@@ -4209,6 +3999,8 @@ a#variations_clear::before {
     font-weight: normal;
     line-height: 1;
     vertical-align: -.125em;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     line-height: inherit;
     vertical-align: baseline;
     content: "\f105";
