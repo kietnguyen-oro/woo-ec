@@ -15,13 +15,13 @@ apache_enablerepo: epel
 mysql_enablerepo: remi
 
 # php
-php_enablerepo: remi-php56
-php_date_timezone: Asia/Ho_Chi_Minh
+php_enablerepo: remi
+php_date_timezone: "{{ ntp_timezone }}"
 php_error_reporting: "E_ALL & ~E_NOTICE"
 php_short_open_tag: "On"
 
 # composer
 composer_global_packages:
-  - { name: hirak/prestissimo, release: "@stable" }
+  - { name: hirak/prestissimo }
 composer_home_owner: "{{ deploy_user_name }}"
 composer_home_group: "{{ deploy_user_name }}"
