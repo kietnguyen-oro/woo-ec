@@ -8,9 +8,11 @@
 - name: logrotate
   src: https://github.com/kietnguyen-oro/ansible-role-logrotate
   version: develop
+- src: jdauphant.ssl-certs
 - src: geerlingguy.apache
 - src: jdauphant.ssl-certs
 - src: geerlingguy.mysql
+- src: geerlingguy.php-versions
 - src: geerlingguy.php
 - src: geerlingguy.php-mysql
 - src: geerlingguy.php-xdebug
