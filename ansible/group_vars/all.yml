@@ -8,6 +8,10 @@ ssh_allow_agent_forwarding: true
 # ntp
 ntp_timezone: Asia/Ho_Chi_Minh
 
+# git
+git_install_from_source: true
+git_install_from_source_force_update: true
+
 # apache
 apache_enablerepo: epel
 

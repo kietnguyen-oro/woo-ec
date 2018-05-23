@@ -19,6 +19,8 @@
     - tar
     - v8-devel
     - zlib-devel
+    - ImageMagick
+    - ImageMagick-devel
 
 - name: Ensure app folder exists
   file:

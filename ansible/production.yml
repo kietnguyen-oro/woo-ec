@@ -4,6 +4,7 @@
   roles:
     - geerlingguy.repo-epel
     - geerlingguy.repo-remi
+    - geerlingguy.git
     - common
     - deploy_user
 #    - dev-sec.ssh-hardening
